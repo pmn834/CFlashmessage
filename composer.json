@@ -1,0 +1,21 @@
+{
+    "name": "pmn834/flashmessage",    
+    "type": "library",
+    "description": "Flashmessage for Anax MVC",
+    "keywords": ["flash", "anax", "mvc", "flashmessage],
+    "homepage": "http://dbwebb.se",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Per Nilsson",
+            "email": "pmn834@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "pmn834\\": "src/" }
+    }
+}
