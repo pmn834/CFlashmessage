@@ -1,5 +1,5 @@
 {
-    "name": "pmn834/CFlashmessage",    
+    "name": "pmn834/flashmessage",    
     "type": "library",
     "description": "Flashmessage for Anax MVC",
     "keywords": ["flash", "anax", "mvc", "flashmessage"],
