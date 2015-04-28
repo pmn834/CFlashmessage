@@ -1,2 +1,2 @@
-# flashmessage
+# CFlashmessage
 Flashmessage for Anax MVC
