@@ -3,13 +3,13 @@
 namespace pmn834\CFlashmessage;
 
 /**
- * Flash messages-
+ * Flash messages.
  * 
  */ 
 class CFlashmessageTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * Test 
+     * Test create new Flash message object.
      *
      * @return void
      *
@@ -24,7 +24,7 @@ class CFlashmessageTest extends \PHPUnit_Framework_TestCase
     }
     
     /**
-     * Test 
+     * Test add new Info message.
      *
      * @return void
      * 
@@ -39,7 +39,7 @@ class CFlashmessageTest extends \PHPUnit_Framework_TestCase
     }
         
     /**
-     * Test 
+     * Test add new Error message.
      *
      * @return void
      * 
@@ -54,7 +54,7 @@ class CFlashmessageTest extends \PHPUnit_Framework_TestCase
     }
     
     /**
-     * Test 
+     * Test add new Success message. 
      *
      * @return void
      * 
@@ -69,7 +69,7 @@ class CFlashmessageTest extends \PHPUnit_Framework_TestCase
     }
     
     /**
-     * Test 
+     * Test add new Warning message. 
      *
      * @return void
      * 
@@ -82,8 +82,5 @@ class CFlashmessageTest extends \PHPUnit_Framework_TestCase
         $exp = '<div class="flash_messages"><div class="flash_message flash_warning"><i class="fa fa-bolt"></i>Warning message</div></div>';
         $this->assertEquals($res, $exp, "Create Warning message failed.");
     }
-
-     
-    
     
 }
