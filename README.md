@@ -2,6 +2,7 @@
 Flashmessage for Anax MVC
 
 Available at Packagist as [flashmessage](https://packagist.org/packages/pmn834/flashmessage).
+
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/pmn834/CFlashmessage/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/pmn834/CFlashmessage/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/pmn834/CFlashmessage/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/pmn834/CFlashmessage/?branch=master)
 [![Build Status](https://travis-ci.org/pmn834/CFlashmessage.svg?branch=master)](https://travis-ci.org/pmn834/CFlashmessage)
