@@ -49,7 +49,6 @@ class CFlashmessage
      */
     private function add($params)
     {
-        $flash_messages = isset($_SESSION['flash_messages']) ? $_SESSION['flash_messages'] : array();
         $_SESSION['flash_messages'][] = $params;
     }
     
