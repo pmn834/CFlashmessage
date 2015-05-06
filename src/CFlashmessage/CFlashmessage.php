@@ -39,7 +39,6 @@ class CFlashmessage
     public function __construct($fa=null)
     {
         $this->useFA = ($fa=='nofa' ? false : true);
-
     }
 
     /**
@@ -129,6 +128,11 @@ class CFlashmessage
         return $out;
     }
     
+    /**
+     * Get the stored FontAwesome setting for the flash message object.
+     *
+     * @return boolean true if FontAwesome is enabled else false.
+     */
     public function getUseFA()
     {
         return $this->useFA;

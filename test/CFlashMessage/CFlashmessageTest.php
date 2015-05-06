@@ -21,6 +21,20 @@ class CFlashmessageTest extends \PHPUnit_Framework_TestCase
         
         $msg = new \pmn834\CFlashmessage\CFlashmessage('nofa');
         $this->assertFalse($msg->getUseFA());
+
+    }
+
+    
+    /**
+     * Test the FontAwesome settings getter.
+     *
+     * @return void
+     *
+     */
+    public function testFontAwesomeSettingsGetter() 
+    {
+        $msg = new \pmn834\CFlashmessage\CFlashmessage();
+        $this->assertNotNull($msg->getUseFA());
     }
     
     /**
