@@ -41,4 +41,4 @@ To get all flashmessages as HTML use `flash->output()`.
 $app->flash->output();
 ```
 
-The `CFlashmessage/test` folder includes the frontcontroller `flashtest.php` to test the CFlashmessage service.
+The `CFlashmessage/webroot` folder includes the frontcontroller `flashtest.php` to test the CFlashmessage service.

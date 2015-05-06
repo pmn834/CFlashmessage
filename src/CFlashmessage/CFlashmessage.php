@@ -129,5 +129,10 @@ class CFlashmessage
         $this->deleteAll();
         return $out;
     }
+    
+    public function getUseFA()
+    {
+        return $this->useFA;
+    }
 
 }
