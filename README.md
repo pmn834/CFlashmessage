@@ -3,6 +3,8 @@ Flashmessage for Anax MVC
 
 Available at Packagist as [flashmessage](https://packagist.org/packages/pmn834/flashmessage).
 
+[![Build Status](https://travis-ci.org/pmn834/CFlashmessage.svg?branch=master)](https://travis-ci.org/pmn834/CFlashmessage)
+
 ## Using CFlashmessage
 
 Copy the file *flashmessage.css* from the `CFlashmessage/css` folder to your Anax `webroot/css` folder. This stylesheet can then be added to your frontcontroller.
